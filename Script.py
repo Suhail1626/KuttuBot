@@ -1,7 +1,7 @@
 class script(object):
     START_TXT = """👋🏻 Hᴇʟʟᴏ {}.
-𝖨𝗆 𝖺𝗇 𝖺𝗎𝗍𝗈 𝖿𝗂𝗅𝗍𝖾𝗋 𝖻𝗈𝗍 𝗐𝗁𝗂𝖼𝗁 𝖼𝖺𝗇 𝗉𝗋𝗈𝗏𝗂𝖽𝖾 𝗆𝗈𝗏𝗂𝖾𝗌 𝗂𝗇 𝗒𝗈𝗎𝗋 𝗀𝗋𝗈𝗎𝗉𝗌. 𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 𝖺𝗇𝖽 𝗉𝗋𝗈𝗆𝗈𝗍𝖾 𝗆𝖾 𝖺𝗌 𝖺𝖽𝗆𝗂𝗇 𝗍𝗈 𝗅𝖾𝗍 𝗆𝖾 𝗀𝖾𝗍 𝗂𝗇 𝖺𝖼𝗍𝗂𝗈𝗇.
-𝖢𝗅𝗂𝖼𝗄 𝗈𝗇 𝗍𝗁𝖾 𝖧𝖾𝗅𝗉 𝖻𝗎𝗍𝗍𝗈𝗇 𝖿𝗈𝗋 𝖬𝗈𝗋𝖾...
+𝖨𝗆 𝖺𝗇 𝖺𝗎𝗍𝗈 𝖿𝗂𝗅𝗍𝖾𝗋 𝖻𝗈𝗍 𝗐𝗁𝗂𝖼𝗁 𝖼𝖺𝗇 𝗉𝗋𝗈𝗏𝗂𝖽𝖾 𝗆𝗈𝗏𝗂𝖾𝗌 𝗂𝗇 𝗒𝗈𝗎𝗋 𝗀𝗋𝗈𝗎𝗉𝗌.
++ 𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 + 𝖺𝗇𝖽 𝗉𝗋𝗈𝗆𝗈𝗍𝖾 𝗆𝖾 𝖺𝗌 𝖺𝖽𝗆𝗂𝗇 𝗍𝗈 𝗅𝖾𝗍 𝗆𝖾 𝗀𝖾𝗍 𝗂𝗇 𝖺𝖼𝗍𝗂𝗈𝗇.
 
 ©️ Maintained By @im_goutham_josh"""
     HELP_TXT = """
@@ -10,6 +10,8 @@ class script(object):
 ○ Available Commands
      
  /start - Check I'm Alive..
+ /ping - check ping
+ /usage - usage of bot
  /status - Bot Status
  /info - User info 
  /id - User id
@@ -17,7 +19,6 @@ class script(object):
  /broadcast - Broadcast (owner only)
 
 ○ Notice 📙:-
-
 ○ Dont Spam Me...🙂
 """
     ABOUT_TXT = """<b>◎ Nᴀᴍᴇ: ᴋᴜᴛᴛᴜ ʙᴏᴛ™
@@ -30,7 +31,7 @@ class script(object):
 - Source - <ahref=https://github.com/GouthamSER>Click Here😂</a>
 
 <b>DEVS:</b>
-- <a href=https://t.me/wudixh1>Gᴏᴜᴛʜᴀᴍ Sᴇʀ🌈</a>"""
+- <a href=https://t.me/wudixh13/4>Gᴏᴜᴛʜᴀᴍ Sᴇʀ🌈</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 - Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
 <b>NOTE:</b>
@@ -45,11 +46,11 @@ class script(object):
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- Eva Maria Supports both url and alert inline buttons.
+- This Bot Supports both url and alert inline buttons.
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. This Botsupports buttons with any telegram media type.
+2. This Bot supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
@@ -124,7 +125,7 @@ FɪʟᴇSɪᴢᴇ : {file_size}
 ╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>"""
 
     
-    RESTART_TXT = """
+    RESTART_GC_TXT = """
 <b>𝖡𝗈𝗍 𝖱𝖾𝗌𝗍𝖺𝗋𝗍𝖾𝖽 !</b>
 Kuttu Bot
 **@im_goutham_josh**
@@ -144,24 +145,24 @@ Try reading the instruction below 👇🏼
     """
 #SPELL CHECK LANGUAGES TO KNOW callback
     ENG_SPELL="""Please Note Below📓
-1️⃣Ask in Correct Spelling
-2️⃣Don't ask Movies which are not Realased on OTT PLATFORMS
-3️⃣Possible  ASK [movie name langauge] like this or [movie year]
+1️⃣ Ask in Correct Spelling
+2️⃣ Don't ask Movies which are not Realased on OTT PLATFORMS
+3️⃣ Possible  ASK [movie name langauge] like this or [movie year]
     """
     MAL_SPELL="""ദയവായി താഴെ ശ്രദ്ധിക്കുക📓
-1️⃣ശരിയായ അക്ഷരവിന്യാസത്തിൽ ചോദിക്കുക
-2️⃣OTT പ്ലാറ്റ്‌ഫോമുകളിൽ റിലീസ് ചെയ്യാത്ത സിനിമകൾ ചോദിക്കരുത്
-3️⃣ഇത് പോലെ [സിനിമയുടെ പേര് ഭാഷ] അല്ലെങ്കിൽ [സിനിമ വർഷം] ചോദിക്കാം
+1️⃣ ശരിയായ അക്ഷരവിന്യാസത്തിൽ ചോദിക്കുക
+2️⃣ OTT പ്ലാറ്റ്‌ഫോമുകളിൽ റിലീസ് ചെയ്യാത്ത സിനിമകൾ ചോദിക്കരുത്
+3️⃣ ഇത് പോലെ [സിനിമയുടെ പേര് ഭാഷ] അല്ലെങ്കിൽ [സിനിമ വർഷം] ചോദിക്കാം
     """
     HIN_SPELL="""कृपया नीचे ध्यान दें📓
-1️⃣सही वर्तनी में पूछें
-2️⃣उन फिल्मों के बारे में न पूछें जो ओटीटी प्लेटफॉर्म पर रिलीज नहीं हुई हैं
-3️⃣संभव है पूछें [मूवी का नाम भाषा] इस तरह या [मूवी वर्ष]
+1️⃣ सही वर्तनी में पूछें
+2️⃣ उन फिल्मों के बारे में न पूछें जो ओटीटी प्लेटफॉर्म पर रिलीज नहीं हुई हैं
+3️⃣ संभव है पूछें [मूवी का नाम भाषा] इस तरह या [मूवी वर्ष]
     """
     TAM_SPELL="""கீழே கவனிக்கவும்📓
-1️⃣சரியான எழுத்துப்பிழையில் கேளுங்கள்
-2️⃣வெளியாகாத திரைப்படங்களைக் கேட்காதீர்கள்
-3️⃣இந்த வடிவத்தில் கேளுங்கள் [திரைப்படத்தின் பெயர், ஆண்டு]
+1️⃣ சரியான எழுத்துப்பிழையில் கேளுங்கள்
+2️⃣ வெளியாகாத திரைப்படங்களைக் கேட்காதீர்கள்
+3️⃣ இந்த வடிவத்தில் கேளுங்கள் [திரைப்படத்தின் பெயர், ஆண்டு]
     """
 
     CHK_MOV_ALRT="""♻️ Eᴅᴀᴀ Mᴏɴᴇʜ ᴄʜᴇᴄᴋɪɴɢ ꜰɪʟᴇ ᴏɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ... ♻️"""
@@ -171,6 +172,6 @@ Try reading the instruction below 👇🏼
     MOV_NT_FND="""<b>Eᴅᴀᴀ Mᴏɴᴇʜ Tʜɪs Mᴏᴠɪᴇ Is Nᴏᴛ Yᴇᴛ Rᴇᴀʟᴇsᴇᴅ Oʀ Aᴅᴅᴇᴅ Tᴏ DB</b>
 Report To ADMIN - @CC_MoviesDiccussion
 """
-    RESTART_GC_TXT = """
+    RESTART_TXT = """
 <b><u>𝖡𝗈𝗍 𝖱𝖾𝗌𝗍𝖺𝗋𝗍𝖾𝖽 ✅</u></b>"""
 
