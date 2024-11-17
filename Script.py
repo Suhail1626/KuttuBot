@@ -1,9 +1,8 @@
 class script(object):
-    START_TXT = """<blockquote>👋🏻 Hᴇʟʟᴏ {}.</blockquote>
-𝖨𝗆 𝖺𝗇 𝖺𝗎𝗍𝗈 𝖿𝗂𝗅𝗍𝖾𝗋 𝖻𝗈𝗍 𝗐𝗁𝗂𝖼𝗁 𝖼𝖺𝗇 𝗉𝗋𝗈𝗏𝗂𝖽𝖾 𝗆𝗈𝗏𝗂𝖾𝗌 𝗂𝗇 𝗒𝗈𝗎𝗋 𝗀𝗋𝗈𝗎𝗉𝗌.
-+ 𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 + 𝖺𝗇𝖽 𝗉𝗋𝗈𝗆𝗈𝗍𝖾 𝗆𝖾 𝖺𝗌 𝖺𝖽𝗆𝗂𝗇 𝗍𝗈 𝗅𝖾𝗍 𝗆𝖾 𝗀𝖾𝗍 𝗂𝗇 𝖺𝖼𝗍𝗂𝗈𝗇.
+    START_TXT = """<blockquote>👋🏻 Hello {}.</blockquote>
+Iam a Telegram Movie Search BOT by team CinemaColony, Just send me Movie name and Year 😍.
 
-<blockquote>©️ Maintained By @im_goutham_josh</blockquote>"""
+<blockquote>©️ Maintained By @BetterProfessor</blockquote>"""
     HELP_TXT = """
     🙋🏻‍♂️   Hellooo  {} 🤓
 
@@ -21,8 +20,8 @@ class script(object):
 ○ Notice 📙:-
 ○ Dont Spam Me...🙂
 """
-    ABOUT_TXT = """<b><blockquote>◎ Nᴀᴍᴇ: ᴋᴜᴛᴛᴜ ʙᴏᴛ™</blockquote>
-◎ Cʀᴇᴀᴛᴏʀ: <a href=https://t.me/wudixh13>Goutham SER</a>
+    ABOUT_TXT = """<b><blockquote>◎ Nᴀᴍᴇ: Tv/Movies Search Bot™</blockquote>
+◎ Cʀᴇᴀᴛᴏʀ: <a href=https://t.me/BetterProfessor>𝖲𝗎𝗁𝖺𝗂𝗅 𝖤𝖻𝗋𝖺𝗁𝗂𝗆</a>
 ◎ Lᴀɴɢᴜᴀɢᴇ: Pʏᴛʜᴏɴ 3
 ◎ Dᴀᴛᴀ Bᴀsᴇ: Mᴏɴɢᴏ DB
 ◎ Bᴏᴛ Sᴇʀᴠᴇʀ: KoYeb</b>"""
@@ -128,7 +127,7 @@ FɪʟᴇSɪᴢᴇ : {file_size}
     RESTART_GC_TXT = """
 <b>𝖡𝗈𝗍 𝖱𝖾𝗌𝗍𝖺𝗋𝗍𝖾𝖽 !</b>
 Kuttu Bot
-**@im_goutham_josh**
+**@BetterProfessor**
 
 📅 𝖣𝖺𝗍𝖾 : <code>{}</code>
 ⏰ 𝖳𝗂𝗆𝖾 : <code>{}</code>
